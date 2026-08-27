@@ -7,5 +7,5 @@ Here below is the component that i use for the project.
 **1. ESP32 DevKit V1** 
 
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/50746267-d60d-4f70-b156-2db3d7e29398" /> 
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/c3d086a3-b05a-4cbd-8352-65331594d685" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c3d086a3-b05a-4cbd-8352-65331594d685" />
 First is the ESP32 DevKit V1 as a main microcontroller in this project.
