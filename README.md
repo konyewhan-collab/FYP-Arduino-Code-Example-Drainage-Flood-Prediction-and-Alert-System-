@@ -6,14 +6,20 @@ Here below is the component that i use for the project.
 
 **1. ESP32 DevKit V1** 
 
-<img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/50746267-d60d-4f70-b156-2db3d7e29398" /> 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/50746267-d60d-4f70-b156-2db3d7e29398" /> 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c3d086a3-b05a-4cbd-8352-65331594d685" />
 
-First is the ESP32 DevKit V1 as a main microcontroller in this project. All the Arduino code will be send to this microcontroller to controller the sensor that use in this project.
+The ESP32 DevKit V1 is the main microcontroller in this project. It executes the Arduino code and controls all connected sensors in this project. 
 
 **2. Ultrasonic Sensor** 
 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/23aea58a-b011-45c3-8d9f-977a8d0507a6" />
+
+
 **3. Waterflow Sensor** 
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/6cca2734-9dcb-4f68-bf24-087201f8953a" />
+
 
 **4. GPS-Module Neo-6m** 
 
