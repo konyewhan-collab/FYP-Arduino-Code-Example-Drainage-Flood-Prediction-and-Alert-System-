@@ -24,3 +24,6 @@ The ESP32 DevKit V1 is the main microcontroller in this project. It executes the
 **4. GPS-Module Neo-6m** 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f6652566-d920-4764-bf3f-425d262492e8" />
+
+**Example of the Demostration Enviroment Setup**
+<img width="500" height="605" alt="image" src="https://github.com/user-attachments/assets/d016a51d-aea3-4b38-9702-9e8070e1be84" />
