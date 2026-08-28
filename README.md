@@ -13,7 +13,7 @@ The ESP32 DevKit V1 is the main microcontroller in this project. It executes the
 
 **2. Ultrasonic Sensor** 
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/23aea58a-b011-45c3-8d9f-977a8d0507a6" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/23aea58a-b011-45c3-8d9f-977a8d0507a6" />
 
 
 **3. Waterflow Sensor** 
