@@ -27,4 +27,4 @@ The ESP32 DevKit V1 is the main microcontroller in this project. It executes the
 
 **Example of the Demostration Enviroment Setup**
 
-<img width="600" height="705" alt="image" src="https://github.com/user-attachments/assets/d016a51d-aea3-4b38-9702-9e8070e1be84" />
+<img width="600" height="405" alt="image" src="https://github.com/user-attachments/assets/d016a51d-aea3-4b38-9702-9e8070e1be84" />
