@@ -6,7 +6,9 @@ Here below is the component that i use for the project.
 
 **1. ESP32 DevKit V1** 
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/50746267-d60d-4f70-b156-2db3d7e29398" /> 
+<p align="center">
+  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/50746267-d60d-4f70-b156-2db3d7e29398" />
+</p>
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c3d086a3-b05a-4cbd-8352-65331594d685" />
 
 The ESP32 DevKit V1 is the main microcontroller in this project. It executes the Arduino code and controls all connected sensors in this project. 
