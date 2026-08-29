@@ -15,16 +15,27 @@ The ESP32 DevKit V1 is the main microcontroller in this project. It executes the
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/23aea58a-b011-45c3-8d9f-977a8d0507a6" />
 
+Used to monitor the water level within the drainage system in real-time. By continuously measuring the distance to the water surface, this sensor detects abnormal rises in water levels to trigger early flood warnings.
 
-**3. Waterflow Sensor** 
+**3. Waterflow Sensor YF-S201** 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/6cca2734-9dcb-4f68-bf24-087201f8953a" />
 
+Measures the flow rate and volume of water passing through the drain. Monitoring the water velocity helps the system identify potential blockages or heavy water surges before flooding occurs.
 
 **4. GPS-Module Neo-6m** 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f6652566-d920-4764-bf3f-425d262492e8" />
 
-**Example of the Demostration Enviroment Setup**
+Provides real-time geographical coordinates for the hardware node. This ensures that when a flood risk or blockage is detected, the system can pinpoint the exact location on the web dashboard for rapid response.
+
+**Example of the Demonstration Environment Setup**
 
 <img width="600" height="405" alt="image" src="https://github.com/user-attachments/assets/d016a51d-aea3-4b38-9702-9e8070e1be84" />
+
+## System Features
+
+*   **Real-Time Web Dashboard:** A centralized, custom-built Laravel web application that visualizes live sensor data, allowing administrators to continuously monitor water levels and flow rates across the drainage network.
+*   **Automated Telegram Alerts:** The system evaluates sensor logic in real-time and instantly pushes automated warning messages via Telegram to relevant personnel when abnormal water levels or potential blockages are detected.
+*   **Live Node Mapping:** Utilizing the integrated GPS module, the dashboard maps the exact geographical coordinates of each hardware node, enabling rapid and precise dispatch of maintenance teams to problem areas.
+*   **Early Blockage Detection:** By simultaneously analyzing water flow velocity and water level distance, the system identifies early signs of drainage blockages before severe flooding can occur.
