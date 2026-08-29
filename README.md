@@ -33,9 +33,10 @@ Provides real-time geographical coordinates for the hardware node. This ensures 
 
 <img width="600" height="405" alt="image" src="https://github.com/user-attachments/assets/d016a51d-aea3-4b38-9702-9e8070e1be84" />
 
-## System Features
+### Hardware Setup
 
-*   **Real-Time Web Dashboard:** A centralized, custom-built Laravel web application that visualizes live sensor data, allowing administrators to continuously monitor water levels and flow rates across the drainage network.
-*   **Automated Telegram Alerts:** The system evaluates sensor logic in real-time and instantly pushes automated warning messages via Telegram to relevant personnel when abnormal water levels or potential blockages are detected.
-*   **Live Node Mapping:** Utilizing the integrated GPS module, the dashboard maps the exact geographical coordinates of each hardware node, enabling rapid and precise dispatch of maintenance teams to problem areas.
-*   **Early Blockage Detection:** By simultaneously analyzing water flow velocity and water level distance, the system identifies early signs of drainage blockages before severe flooding can occur.
+Connect the components to the ESP32 DevKit V1 according to the pin definitions outlined at the top of the `.ino` file. General guidelines:
+* **Ultrasonic Sensor:** Connect VCC (5V), GND, and map the Trig and Echo pins.
+* **Waterflow Sensor YF-S201:** Connect VCC (5V), GND, and attach the yellow data wire to the designated interrupt pin on the ESP32.
+* **GPS-Module Neo-6m:** Connect VCC (3.3V/5V), GND, and cross the TX/RX pins to the ESP32's defined serial pins.
+
